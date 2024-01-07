@@ -19,3 +19,32 @@ header {
     border-radius: 16px;
     margin-bottom: 120px;
 }
+.banner {
+    border-radius: 16px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+}
+
+.banner-text {
+    width: 632px;
+    margin: 0 auto;
+    padding: 177px 0;
+}
+
+.banner-text-title {
+    color: #fff9f9;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 26px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 3px black;
+}
+
+.banner-text-party {
+    color: #fff9f9;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 59px;
+    font-weight: 900;
+    text-shadow: 2px 2px 3px black;
+}
