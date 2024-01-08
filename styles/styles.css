@@ -92,3 +92,111 @@ main {
 .newshade{
     max-width: 100%;
 }
+.party-banner {
+    background: url('../resources/Vectorrr.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    margin-bottom: 126px;
+}
+
+.party-contain {
+    display: flex;
+    gap: 40px;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    border-radius: 8px;
+    padding: 68px 126px;
+}
+
+.party-text {
+    max-width: 580px;
+}
+
+.party-title {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+    margin-bottom: 20px;
+}
+
+.party-description {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+.btn {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 17px;
+    font-weight: 700;
+    padding: 13px 26px;
+    background-color: transparent;
+    border: none;
+   margin-left: 20px;
+   
+}
+.party-details-banner {
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    padding: 100px 0;
+    border-radius: 8px;
+    margin-bottom: 120px;
+}
+
+.details-text {
+    color: #070211;
+    font-family: Inter;
+    text-align: center;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+}
+
+.details-time {
+    width: 550px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.pdt {
+    color: #F00;
+}
+
+.btn-primary {
+    margin-top: 40px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 8px;
+    padding: 12px 24px;
+    background: rgb(221, 0, 0);
+    border: 1px solid transparent;
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+.btn-primary:hover {
+        background: transparent;
+        color: rgba(183, 104, 51, 0.785);
+        text-shadow: 1px 1px 2px rgba(60, 24, 47, 0.005);
+        border: 1px solid rgb(24, 30, 16);
+    
+}
+
+
+
